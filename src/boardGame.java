@@ -17,5 +17,21 @@ public class boardGame {
 
 	}
 
+	public String[][] getBoard() {
+		return board;
+	}
+
+	public void setBoard(String[][] board) {
+		this.board = board;
+	}
+
+	public List<submarines> getSubmarines() {
+		return submarines;
+	}
+
+	public void setSubmarines(List<submarines> submarines) {
+		this.submarines = submarines;
+	}
+
 
 }

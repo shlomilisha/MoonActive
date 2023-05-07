@@ -2,13 +2,13 @@
 public class submarines {
 	String name;
 	int size;
-	int [] coordinetes;
+	int [] coordinates;
 	String status;
 	
-	public submarines (String name, int size, int [] coordinetes, String status ) {
+	public submarines (String name, int size, int [] coordinates, String status ) {
 		this.name = name;
 		this.size = size;
-		this.coordinetes = coordinetes;
+		this.coordinates = coordinates;
 		this.status = status;
 	}
 	public submarines (String name, int size, String status ) {
@@ -42,11 +42,11 @@ public class submarines {
 	}
 
 	public int[] getCoordinetes() {
-		return coordinetes;
+		return coordinates;
 	}
 
 	public void setCoordinetes(int[] coordinetes) {
-		this.coordinetes = coordinetes;
+		this.coordinates = coordinetes;
 	}
 
 }
